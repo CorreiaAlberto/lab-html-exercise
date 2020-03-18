@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  flex-direction: column;
+}
+.up-header {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+/*------------------------low-header----------------------------------------*/
+
+.npm-logo {
+  height: 30px;
+  padding: 10px 10px;
+}
+
+.npm-logo{
+  width: 70px;
+  height: 22px;
+  padding: 5px;
+}
+
+.low-header {
+  display: flex;
+  flex: 5;
+  align-content: space-around;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 8px;
+}
+
+  .magnifying {   
+     padding: 14px 4px 0 16px;
+    width: 15px;
+    height: 15px;
+  }
+#search-bar {
+  width: 100%;
+    height: 45px;
+    margin: 10px 0;
+}
+
+  #search-button {
+    background-color: #FB3B49;
+    color: white;
+  }
+  
+  /*no consigo hacer el lower header*/
+
+ /*----------------------------------------section 1--------------------------------------------*/
+
+  .body-one {
+   height: 600 px;
+   background-color: rgba(232, 217, 217, .3);
+   text-align: center;
+   padding: 10px;
+ }
+ .body-one h1{
+   font-size: 4em;
+ }
+
+#plans-button {
+  font-weight: bolder;
+  padding: 10px 40px;
+  background-color: #FB3B49;
+  color: white;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+
+}
+#join-button {
+  font-weight: bolder;
+  padding: 10px 40px ;
+}
+
+
+ /*--------------------------------------------------------section2 ------------------------------------------------*/
+
+ .body-two {
+  height: 600 px;
+  text-align: center;
+  padding: 20px;
+ }
+  #hexagon {
+    width: 981px;
+    height: 333px;
+    text-align: center;
+   }
+  
+  #bringthebest {
+   background-color: rgba(255,204,53,.4) 
+  }
+
+
+ /*------------------------------------------------------------section 3------------------------------------------------*/
+  .body-three {
+  display: flex;
+  flex-direction:row;
+  text-align: left;
+
+ }
+ 
+.body-three h3 {
+  color: #ED1C24;
+}
+.images-last-section {
+  width: 50px;
+    height: 24px
+}
+#create-org {
+  padding: 14p 300px; /* No se porque no puedo aplicar propiedades para cambiar el tamaño de la caja o centrarla en su sitio*/
+  align-content: center;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  background-color: black;
+  color: white;
+}
+ 
+
+
+
+
+
